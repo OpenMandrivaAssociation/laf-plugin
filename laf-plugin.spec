@@ -3,7 +3,7 @@
 
 Name:           laf-plugin
 Version:        1.0
-Release:        %mkrel 0.0.1
+Release:        %mkrel 0.0.2
 Summary:        Generic plugin framework for Java look-and-feels
 License:        BSD
 Group:          Development/Java
@@ -17,7 +17,9 @@ BuildArch:      noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
-The goal of this project is to provide a generic plugin framework for look-and-feels and define the interface of a common kind of plugins - the component plugins.
+The goal of this project is to provide a generic plugin framework for 
+look-and-feels and define the interface of a common kind of plugins - 
+the component plugins.
 
 #%package        javadoc
 #Summary:        Javadoc for %{name}

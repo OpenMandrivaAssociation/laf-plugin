@@ -59,3 +59,23 @@ rm -rf %{buildroot}
 #%{_javadocdir}/%{name}
 #%{_javadocdir}/%{name}-%{version}
   
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0-0.0.4mdv2011.0
++ Revision: 620046
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 1.0-0.0.3mdv2010.0
++ Revision: 436083
+- rebuild
+
+* Mon Feb 25 2008 Alexander Kurtakov <akurtakov@mandriva.org> 1.0-0.0.2mdv2008.1
++ Revision: 174701
+- wrap description
+
+* Mon Feb 25 2008 Alexander Kurtakov <akurtakov@mandriva.org> 1.0-0.0.1mdv2008.1
++ Revision: 174543
+- import laf-plugin
+
+

@@ -3,7 +3,7 @@
 
 Name:           laf-plugin
 Version:        1.0
-Release:        %mkrel 0.0.4
+Release:        0.0.5
 Summary:        Generic plugin framework for Java look-and-feels
 License:        BSD
 Group:          Development/Java

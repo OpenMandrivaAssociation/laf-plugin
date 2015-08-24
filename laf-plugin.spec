@@ -3,7 +3,7 @@
 
 Name:           laf-plugin
 Version:        1.0
-Release:        0.0.5
+Release:        1
 Summary:        Generic plugin framework for Java look-and-feels
 License:        BSD
 Group:          Development/Java
@@ -31,7 +31,7 @@ the component plugins.
 %prep
 %setup -q -c %{name}-%{version}
 cp %{SOURCE1} build.xml
-%remove_java_binaries
+rm -rf drop/*
 
 %build
 #ln -s $(build-classpath asm2/asm2) lib/asm-all-2.2.2.jar
